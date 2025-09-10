@@ -1,0 +1,6 @@
+print("hi there, what is your name")
+input("")
+print("hello(name), welcome to CT8")
+print("i am going to tell you a story about soccer try outs")
+print("")
+print("")

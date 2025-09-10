@@ -1,0 +1,7 @@
+print("what do you call a pasta that's fake")
+input("")
+print("an impasta")
+input("")
+print("what state is known for its small drinks")
+input("")
+print("minnisoda")
