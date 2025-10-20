@@ -44,7 +44,7 @@ elif answer == "D":
     Gryffindor_points += 1
 
     answer == input ("if you could play any posion in Quiditch what would you chose A seeker, B chaser, C beater or D youll be in the crowd makign sure supporter moral is high")
-    if answer == input == "A": 
+if answer == input == "A": 
     Gryffindor_points += 1
 elif answer == "B":
     Ravenclaw_points += 1
@@ -53,6 +53,11 @@ elif answer == "C":
 elif answer == "D":
     Hufflepuff_points += 1
 
-    if Gryffindor_points > Hufflepuff_points and Gryffindor_points > Ravenclaw_points and Gryffindor_points > Slytherin_points:
-        print ("You are in the gryffindor house!")
-        ryffindor_points > Hufflepuff_points and Gryffindor_points > Ravenclaw_points and Hufflepuff_points > Slytherin_points:
+if Gryffindor_points > Hufflepuff_points and Gryffindor_points > Ravenclaw_points and Gryffindor_points > Slytherin_points:
+    print ("You are in the gryffindor house!")
+elif Hufflepuff_points > Gryffindor_points and Hufflepuff_points > Ravenclaw_points and Hufflepuff_points > Slytherin_points:
+    print ("You are in the Hufflepuff house!")
+elif Ravenclaw_points> Gryffindor_points and Ravenclaw_points > Hufflepuff_points and Ravenclaw_points > Slytherin_points:
+    print ("You are in the Ravenclaw house!")
+elif Slytherin_points > Hufflepuff_points and Slytherin_points > Ravenclaw_points and Slytherin_points > Gryffindor_points:
+    print ("You are in the Slytherin house!)")
