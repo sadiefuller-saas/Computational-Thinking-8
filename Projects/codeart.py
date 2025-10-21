@@ -5,13 +5,15 @@ import turtle
 
 t = turtle.Turtle()
 turtle.Screen().bgcolor ("Navy")
+#this changed the background to navy
 t.speed (10)
+#this changed the speed to 10
 
 t.penup()
 t.goto (0,0)
 t.pendown()
 t.color("cyan")
-
+#this changed the color to cyan
 
 
 for i in range (67) :
