@@ -22,13 +22,12 @@ for i in range (67) :
     t.left (200)
 
 t = turtle.Turtle()
-
 t.speed (10)
 #this changed the speed to 10
 
 t.goto (0,0)
 t.pendown()
-t.color("cyan")
+t.color("pink")
 #this changed the color to cyan
 
 
