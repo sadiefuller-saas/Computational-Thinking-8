@@ -9,7 +9,6 @@ turtle.Screen().bgcolor ("Navy")
 t.speed (10)
 #this changed the speed to 10
 
-t.penup()
 t.goto (0,0)
 t.pendown()
 t.color("cyan")
@@ -22,7 +21,22 @@ for i in range (67) :
     t.forward (150 + 2*i)
     t.left (200)
 
+t = turtle.Turtle()
 
+t.speed (10)
+#this changed the speed to 10
+
+t.goto (0,0)
+t.pendown()
+t.color("cyan")
+#this changed the color to cyan
+
+
+for i in range (67) :
+    t.forward (150 + 2*i)
+    t.left (200)
+    t.forward (150 + 2*i)
+    t.left (200)
 
 turtle.exitonclick ()
 
